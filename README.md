@@ -7,7 +7,8 @@ Yu Chen, Chen Luo, Yong Liu, JiChuan Quan*, Liu Chengzhuo
 > If you have any questions about our paper, feel free to contact [Jichuan Quan](qjch_cn@sina.com) 
 or [Yu Chen](924715648@qq.com) via E-mail. And if you are using SINet or evaluation toolbox for your research, please cite this paper.
 >
->### 0.1. File Structure (PROJECT_STRUCTURE.md)
+> 0.1. File Structure (PROJECT_STRUCTURE.md)
+
 >1. Proposed Baseline
 The training and testing experiments are conducted using PyTorch with a single GeForce RTX 2080Ti GPU of 11 GB Memory.
 >
@@ -30,15 +31,18 @@ Note that FMFS is only tested on Ubuntu OS with the following environments. It m
 >Trainer(pvt).py: train FMFS (include abolation experiment: without FRB or without FEM).
 >Trainer(Oct).py: train FMFS without Octave Convolution and NCD.
 >Trainer(Abolation).py: the network FMFS only have backbone PvTv2.
+
 >MambaVision as backbone:
->Trainer(mambavisiont).py: train FMFS
+> 
+>Trainer(mambavision).py: train FMFS
+
 >Testing Configuration:
 >After you download all the pre-trained model and testing data, just run Test.py to generate the final prediction map: replace your trained model directory (--checkpoints) and assign your the save directory of the inferred mask (--Result).
 >
 >Later, We will try different backbones based FMFS to improve performance and provide more comprehensive comparison.
 >
 >
-###2. Results Download（Upload before July 31, 2025）
+>2. Results Download（Upload before July 31, 2025）
 >Results of our FMFS can be found in this Baidu Pan link with the fetch code:.
 >
 >Performance of competing methods can be found in this Baidu Pan link with the fetch code:.
