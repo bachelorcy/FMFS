@@ -19,7 +19,9 @@ Note that FMFS is only tested on Ubuntu OS with the following environments. It m
 >Installing necessary packages: pip install -r requirements.txt. (Under CUDA-11.8 and Pytorch-2.3.1).
 >
 >Downloading Training and Testing Sets（Upload before July 31, 2025）:
+>
 >Downloading NEW training dataset (COD10K-train + CAMO-train) and move it into ./data/Train/, which can be found in this Baidu Pan link with the fetch code:.
+>
 >Download NEW testing dataset (COD10K-test+NC4K+CAMO-test) which can be found in this Baidu Pan link with the fetch code:.
 > 
 > Training and Abolation experiments Configuration（Upload before July 31, 2025）:
@@ -29,7 +31,9 @@ Note that FMFS is only tested on Ubuntu OS with the following environments. It m
 >PvTv2 as backbone:
 > 
 >Trainer(pvt).py: train FMFS (include abolation experiment: without FRB or without FEM).
+>
 >Trainer(Oct).py: train FMFS without Octave Convolution and NCD.
+>
 >Trainer(Abolation).py: the network FMFS only have backbone PvTv2.
 
 >MambaVision as backbone:
