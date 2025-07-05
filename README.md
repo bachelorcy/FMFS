@@ -29,17 +29,20 @@ Note that FMFS is only tested on Ubuntu OS with the following environments. It m
 > Training and Abolation experiments Configuration:
 > 
 >★★Backbone: downloading the pre-trained model (pvt_v2_b4.pth + mambavision_small_1k.pth.tar) and move it into ./snapshot/. Baidu Pan link of PVT : https://pan.baidu.com/s/1ecF4bl9c-d1OCo6qxD4QUw?pwd=jyd7 ;
->Baidu Pan link of mambavision: https://pan.baidu.com/s/1Ba6m6SwZGbu0yOya5fVvQw?pwd=hrzf 
+>
+>★★Baidu Pan link of mambavision: https://pan.baidu.com/s/1Ba6m6SwZGbu0yOya5fVvQw?pwd=hrzf 
 > 
->★★PvTv2 as backbone:
+>PvTv2 as backbone:
 > 
 >Trainer(pvt).py: train FMFS (include abolation experiment: without FRB or without FEM).
->Baidu Pan link of FEM: https://pan.baidu.com/s/1WRnc29NPvScEFWePsmrebQ?pwd=9tf2;
->Baidu Pan link of FRB: https://pan.baidu.com/s/13Fx1BRXvJnaWSTKpsOuBog?pwd=qvgu
 >
->Trainer(Oct).py: train FMFS without Octave Convolution and NCD. Baidu Pan link: https://pan.baidu.com/s/1r_pPRLCtPyoIec5K7-D72g?pwd=zhux
+>★★Baidu Pan link of FEM of Pre-trained model: https://pan.baidu.com/s/1WRnc29NPvScEFWePsmrebQ?pwd=9tf2;
 >
->Trainer(Abolation).py: the network FMFS only have backbone PvTv2. Baidu Pan link: https://pan.baidu.com/s/17RiSk-FUB2yvx3s_SJMXrw?pwd=336s
+>★★Baidu Pan link of FRB of Pre-trained model: https://pan.baidu.com/s/13Fx1BRXvJnaWSTKpsOuBog?pwd=qvgu
+>
+>★★Trainer(Oct).py: train FMFS without Octave Convolution and NCD. Baidu Pan link of Pre-trained model: https://pan.baidu.com/s/1r_pPRLCtPyoIec5K7-D72g?pwd=zhux
+>
+>★★Trainer(Abolation).py: the network FMFS only have backbone PvTv2. Baidu Pan link of Pre-trained model: https://pan.baidu.com/s/17RiSk-FUB2yvx3s_SJMXrw?pwd=336s
 
 >Testing Configuration:
 >After you download all the pre-trained model and testing data, just run Test.py to generate the final prediction map: replace your trained model directory (--checkpoints) and assign your the save directory of the inferred mask (--Result).
@@ -47,5 +50,5 @@ Note that FMFS is only tested on Ubuntu OS with the following environments. It m
 >Later, We will try different backbones based FMFS to improve performance and provide more comprehensive comparison.
 >
 
->2. Results Download
->Results of our FMFS can be found in this Baidu Pan link :https://pan.baidu.com/s/1LCbHGqAkgcObXbZScXen7w?pwd=vfv8
+>Results Download
+>★★Results of our FMFS can be found in this Baidu Pan link :https://pan.baidu.com/s/1LCbHGqAkgcObXbZScXen7w?pwd=vfv8
